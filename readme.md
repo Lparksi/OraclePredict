@@ -19,6 +19,10 @@
 ```bash
 pip install flask torch ultralytics pillow
 ```
+或使用 `uv` 包管理器
+```bash
+uv sync
+```
 
 ---
 
