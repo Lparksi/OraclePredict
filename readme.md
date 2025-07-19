@@ -251,44 +251,10 @@ python app.py
 
 ```bash
 cd client/OBC-client
-
-# 开发模式
-npm run dev
-
-# 构建生产版本
-npm run build
-
-# 预览构建结果
-npm run preview
+yarn
+yarn dev
 ```
 
-## 📝 部署
-
-### Docker 部署 (推荐)
-
-```dockerfile
-# 后端 Dockerfile
-FROM python:3.13-slim
-COPY . /app
-WORKDIR /app
-RUN pip install -e .
-EXPOSE 5000
-CMD ["python", "app.py"]
-```
-
-### 生产环境部署
-
-**后端 (Gunicorn)**
-```bash
-pip install gunicorn
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
-```
-
-**前端 (Nginx)**
-```bash
-npm run build
-# 将 dist/ 目录部署到 Nginx
-```
 
 ## 🤝 贡献
 

@@ -7,7 +7,7 @@
           <span class="icon">🔮</span>
           Oracle Predict
         </h1>
-        <p class="subtitle">智能图像检测与分类系统</p>
+        <p class="subtitle">甲骨文智能图像检测与分类系统</p>
       </div>
     </header>
 
