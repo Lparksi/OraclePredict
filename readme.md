@@ -255,38 +255,3 @@ yarn
 yarn dev
 ```
 
-
-## 🤝 贡献
-
-欢迎贡献代码！请遵循以下步骤：
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-
-## 🐛 问题报告
-
-如果你发现了 bug 或有功能建议，请在 [Issues](https://github.com/Lparksi/OraclePredict/issues) 页面提交。
-
-## 📞 联系方式
-
-- **项目维护者**: Lparksi
-- **项目地址**: https://github.com/Lparksi/OraclePredict
-- **问题反馈**: [GitHub Issues](https://github.com/Lparksi/OraclePredict/issues)
-
-## 🙏 致谢
-
-- ONNX Runtime 团队提供的高性能推理框架
-- Vue.js 团队提供的优秀前端框架
-- Flask 团队提供的轻量级 Web 框架
-- 所有贡献者的支持和反馈
-
----
-
-⭐ 如果这个项目对你有帮助，请给个 Star！
