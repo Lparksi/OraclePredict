@@ -1,0 +1,13 @@
+# 模型配置
+detection-model-path = "inferences/models/detection-fp32.onnx"
+classification-model-path = "inferences/models/classification-fp32.onnx"
+
+# ONNX Runtime 提供器配置
+providers = ["CPUExecutionProvider"]
+
+# 精度配置 (fp16/fp32)
+precision = "fp32"
+
+# 检测阈值配置
+conf-threshold = 0.5    # 置信度阈值
+iou-threshold = 0.4     # IoU阈值 (Non-Maximum Suppression)
